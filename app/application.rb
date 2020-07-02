@@ -5,7 +5,8 @@ class Application
     
     time = Time.now.hour
     
-    if time < 12 ? greeting = "Good Morning!" : greeting = "Good Afternoon!"
+    time < 12 ? greeting = "Good Morning!" : greeting = "Good Afternoon!"
+      
       resp.write("Good Morning!")
 
     
