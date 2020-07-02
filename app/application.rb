@@ -1,5 +1,5 @@
 class Application
   
   def greet(env)
-    resp = Rack:
+    resp = Rack::Reponse.new
 
