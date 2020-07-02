@@ -7,9 +7,9 @@ class Application
     time_2 = Kernel.rand(1..24)
     
     if time_1 < 12 
-      resp.write ("Good Morning!")
+      resp.write("Good Morning!")
     else
-      resp.write ("Good Afternoon!")
+      resp.write("Good Afternoon!")
     end
     
     resp.finish
