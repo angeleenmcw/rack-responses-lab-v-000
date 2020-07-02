@@ -6,6 +6,7 @@ class Application
     time_1 = Kernel.rand(1..24)
     time_2 = Kernel.rand(1..24)
     
-    if time_1 < 12 
-      resp.write
+    if time_1 =< 12 
+      resp.write = "Good Morning!"
+      
 
