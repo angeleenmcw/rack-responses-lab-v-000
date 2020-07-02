@@ -1,5 +1,5 @@
 class Application
   
   def greet(env)
-    resp.
+    resp = Rack:
 
