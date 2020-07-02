@@ -1,6 +1,6 @@
 class Application
   
-  def greet(env)
+  def call(env)
     resp = Rack::Reponse.new 
     
     time_1 = Time.now.strftime("%H:%M")
