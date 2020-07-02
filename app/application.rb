@@ -7,7 +7,7 @@ class Application
     
     time < 12 ? greeting = "Good Morning!" : greeting = "Good Afternoon!"
       
-    resp.write
+    resp.write greeting
 
     
     resp.finish
