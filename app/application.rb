@@ -9,6 +9,7 @@ class Application
     if time_1 < 12 
       resp.write = "Good Morning!"
     else
-      if time_2 => 12
-        resp.write = "Good Afternoon!"
+      resp.write = "Good Afternoon!"
+    end
+    
 
