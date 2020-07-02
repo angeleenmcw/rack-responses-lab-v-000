@@ -3,5 +3,6 @@ class Application
   def greet(env)
     resp = Rack::Reponse.new 
     
-    time_1 = Kernel
+    time_1 = Kernel.rand(1..24)
+    time_2 = Kernel.rand(1..24)
 
